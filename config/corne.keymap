@@ -298,6 +298,15 @@
                                      &mt LEFT_WIN ENTER  &kp LEFT_ALT  &kp LCTRL     &kp LSHFT  &lt 2 SPACE  &lt 3 BACKSPACE
             >;
                 };
+
+                emacs {
+            bindings = <
+&trans  &trans  &kp W   &kp E   &trans  &trans                    &kp Y   &trans  &trans  &trans  &trans     &trans
+&trans  &kp A   &trans  &kp D   &kp F   &trans                    &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &kp SLASH  &trans
+                                &trans  &trans    &trans  &trans  &trans  &trans
+            >;
+        };
         };
 };
 
