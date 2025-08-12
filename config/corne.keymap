@@ -295,10 +295,10 @@
         windows {
             display-name = "windows";
             bindings = <
-&trans  &kp Q  &w_cut_copy  &end                &kp R         &lt 3 T       &w_yank     &kp U        &kp I            &kp O       &ct_p_up  &trans
-&trans  &home  &kp S        &del                &ct_f_right   &kp G         &kp H       &kp J        &kp K            &kp L       &kp SEMI  &trans
-&trans  &kp Z  &kp X        &kp C               &mod_nav      &ct_b_left    &ct_n_down  &kp M        &kp COMMA        &kp PERIOD  &w_undo   &trans
-                            &mt LEFT_WIN ENTER  &kp LEFT_ALT  &kp LCTRL     &kp LSHFT   &lt 2 SPACE  &lt 3 BACKSPACE
+&trans  &kp Q  &w_cut_copy  &end                &kp R        &lt 3 T       &w_yank     &kp U        &kp I            &kp O       &ct_p_up  &trans
+&trans  &home  &kp S        &del                &ct_f_right  &kp G         &kp H       &kp J        &kp K            &kp L       &kp SEMI  &trans
+&trans  &kp Z  &kp X        &kp C               &mod_nav     &ct_b_left    &ct_n_down  &kp M        &kp COMMA        &kp PERIOD  &w_undo   &trans
+                            &mt LEFT_WIN ENTER  &kp LCTRL    &kp LALT      &kp LSHFT   &lt 2 SPACE  &lt 3 BACKSPACE
             >;
         };
 
@@ -325,7 +325,7 @@
 &trans  &trans      &kp W      &kp E        &p1           &p2                &kp Y              &kp CARET       &kp HASH      &kp ASTRK     &kp P         &trans
 &trans  &kp A       &trans     &kp D        &kp F         &kp C_VOLUME_UP    &kp C_VOLUME_DOWN  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
 &trans  &to_folder  &to_emacs  &to_browser  &to_terminal  &kp B              &kp N              &to_notes       &to_chat      &trans        &trans        &trans
-                               &trans       &kp LEFT_ALT  &kp LCTRL          &bt BT_CLR         &bt BT_CLR_ALL  &none
+                               &trans       &kp LCTRL     &kp LALT           &bt BT_CLR         &bt BT_CLR_ALL  &none
             >;
         };
     };
