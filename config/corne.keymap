@@ -306,7 +306,7 @@
             bindings = <
 &trans  &trans  &kp W   &kp E   &trans  &trans    &kp Y   &trans  &trans  &trans  &trans     &trans
 &trans  &kp A   &trans  &kp D   &kp F   &trans    &trans  &trans  &trans  &trans  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp SLASH  &trans
+&trans  &trans  &trans  &trans  &kp B   &trans    &trans  &trans  &trans  &trans  &kp SLASH  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
@@ -322,10 +322,10 @@
 
         fun {
             bindings = <
-&trans  &trans      &kp W      &kp E        &p1           &p2                &kp Y              &kp CARET       &kp HASH      &kp ASTRK     &kp P         &trans
-&trans  &kp A       &trans     &kp D        &kp F         &kp C_VOLUME_UP    &kp C_VOLUME_DOWN  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
-&trans  &to_folder  &to_emacs  &to_browser  &to_terminal  &kp B              &kp N              &to_notes       &to_chat      &trans        &trans        &trans
-                               &trans       &kp LCTRL     &kp LALT           &bt BT_CLR         &bt BT_CLR_ALL  &none
+&trans  &trans      &kp W      &kp E        &p1        &p2                &kp Y              &kp CARET       &kp HASH      &kp ASTRK     &kp P         &trans
+&trans  &kp A       &trans     &kp D        &kp F      &kp C_VOLUME_UP    &kp C_VOLUME_DOWN  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
+&trans  &to_folder  &to_emacs  &to_browser  &kp V      &kp B              &kp N              &to_notes       &to_chat      &trans        &trans        &trans
+                               &trans       &kp LCTRL  &kp LALT           &bt BT_CLR         &bt BT_CLR_ALL  &none
             >;
         };
     };
